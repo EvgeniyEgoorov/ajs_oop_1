@@ -15,6 +15,13 @@
             "LabeledStatement",
             "WithStatement"
         ],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+              "js": "always"
+            }
+        ],
         "linebreak-style": 0,
         "indent": 0
     }
