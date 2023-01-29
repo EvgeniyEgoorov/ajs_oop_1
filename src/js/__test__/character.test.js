@@ -27,71 +27,71 @@ test('Invalid character type', () => {
 test('Bowman', () => {
     const bowman = new Bowman('Bowy');
     expect(bowman).toEqual({
-        "name": "Bowy", 
-        "type": "Bowman",
-        "health": 100, 
-        "level": 1,
-        "attack": 25, 
-        "defence": 25, 
-    })
+        name: 'Bowy',
+        type: 'Bowman',
+        health: 100,
+        level: 1,
+        attack: 25,
+        defence: 25,
+    });
 });
 
 test('Daemon', () => {
     const daemon = new Daemon('Daemy');
     expect(daemon).toEqual({
-        "name": "Daemy", 
-        "type": "Daemon",
-        "health": 100, 
-        "level": 1,
-        "attack": 10, 
-        "defence": 40, 
-    })
+        name: 'Daemy',
+        type: 'Daemon',
+        health: 100,
+        level: 1,
+        attack: 10,
+        defence: 40,
+    });
 });
 
 test('Magician', () => {
     const magician = new Magician('Magy');
     expect(magician).toEqual({
-        "name": "Magy", 
-        "type": "Magician",
-        "health": 100, 
-        "level": 1,
-        "attack": 10, 
-        "defence": 40, 
-    })
+        name: 'Magy',
+        type: 'Magician',
+        health: 100,
+        level: 1,
+        attack: 10,
+        defence: 40,
+    });
 });
 
 test('Swordsman', () => {
     const swordsman = new Swordsman('Swordy');
     expect(swordsman).toEqual({
-        "name": "Swordy", 
-        "type": "Swordsman",
-        "health": 100, 
-        "level": 1,
-        "attack": 40, 
-        "defence": 10, 
-    })
+        name: 'Swordy',
+        type: 'Swordsman',
+        health: 100,
+        level: 1,
+        attack: 40,
+        defence: 10,
+    });
 });
 
 test('Undead', () => {
     const undead = new Undead('Undy');
     expect(undead).toEqual({
-        "name": "Undy", 
-        "type": "Undead",
-        "health": 100, 
-        "level": 1,
-        "attack": 25, 
-        "defence": 25, 
-    })
+        name: 'Undy',
+        type: 'Undead',
+        health: 100,
+        level: 1,
+        attack: 25,
+        defence: 25,
+    });
 });
 
 test('Zombie', () => {
     const zombie = new Zombie('Zomy');
     expect(zombie).toEqual({
-        "name": "Zomy", 
-        "type": "Zombie",
-        "health": 100, 
-        "level": 1,
-        "attack": 40, 
-        "defence": 10, 
-    })
+        name: 'Zomy',
+        type: 'Zombie',
+        health: 100,
+        level: 1,
+        attack: 40,
+        defence: 10,
+    });
 });
